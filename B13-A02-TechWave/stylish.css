@@ -1,6 +1,6 @@
 .navber{
 background-color: #412567;
-width: 1460px;
+width: 1470px;
 height: 92px;
 display: flex;
 justify-content: space-around;
@@ -22,17 +22,81 @@ color: white;
     margin: 25px;
 }
 .btn{
-
+padding: 5px;
 justify-content: end;
 width:135px ;
 height:44px ;
 background-color: #FD2920;
 color: aliceblue;
-border-radius: 13px;
+border-radius: 18px;
 margin: 25px 20px;
 text-align: center;
 justify-items: center;
 }
 .list-item li{
     list-style: none;
+}
+.banner-section{
+    height:760px;
+    width:1470px ;
+    background-color: #2A186C;
+    background-image: url(./assets/hero-bg.png);
+     
+
+}
+.bg{
+margin-top: 70px;
+
+
+}
+.hero-img{
+ margin-left: 625px;
+}
+.top{
+margin-right: 65px;
+margin-bottom: 170px;
+
+
+}
+.banner-item{
+text-align: center;
+
+
+}
+.banner-title{
+font-size: 72px;
+font-weight: 700;
+color: white;
+margin-top: 20px;
+margin-bottom: 0px;
+}
+.banner-dis{
+color: white;
+margin: 0 ;
+
+
+}
+.banner-button{
+margin-top: 30px;
+gap: 5px;
+border-radius: 20px;
+
+
+}
+.btn-two{
+background-color: #FD2920;
+border-radius: 20px;
+font-size: 16px;
+font-weight: 400;
+padding: 10px;
+color: white;
+}
+.btn-tre{
+border: 2px solid green;
+background-color: #2A186C;
+padding: 10px;
+color: green;
+border-radius: 20px;
+font-size: 16px;
+font-weight: 400;
 }
