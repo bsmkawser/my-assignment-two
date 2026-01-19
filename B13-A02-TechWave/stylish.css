@@ -1,0 +1,38 @@
+.navber{
+background-color: #412567;
+width: 1460px;
+height: 92px;
+display: flex;
+justify-content: space-around;
+
+}
+.tech-wave{
+margin: 25px 20px;
+color: white;
+
+
+}
+.wave{
+    color: #FD2920;
+}
+.list-item{
+    display: flex;
+    gap: 30px;
+    color: white;
+    margin: 25px;
+}
+.btn{
+
+justify-content: end;
+width:135px ;
+height:44px ;
+background-color: #FD2920;
+color: aliceblue;
+border-radius: 13px;
+margin: 25px 20px;
+text-align: center;
+justify-items: center;
+}
+.list-item li{
+    list-style: none;
+}
