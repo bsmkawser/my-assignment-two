@@ -37,7 +37,7 @@ justify-items: center;
     list-style: none;
 }
 .banner-section{
-    height:760px;
+    height:auto;
     width:1470px ;
     background-color: #2A186C;
     background-image: url(./assets/hero-bg.png);
@@ -99,4 +99,187 @@ color: green;
 border-radius: 20px;
 font-size: 16px;
 font-weight: 400;
+}
+.about{
+
+}
+.about-section{
+width: 900px;
+height: 222;
+color: white;
+margin-top: 50px;
+text-align: center;
+margin-left: 250px;
+margin-top: 150px;
+/*border: 1px solid darkgreen;*/
+}
+.about-section h1{
+font-size: 3rem;
+font-weight: 500;
+
+}
+.review-flex{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+gap: 100px;
+}
+.review{
+color: #00ff88;
+/*border: 1px solid green;*/
+font-size: 3rem;
+font-weight: 800;
+margin-bottom: 0px;
+}
+.review p{
+color: white;
+font-size: 1.24rem;
+margin-top: 0px;
+}
+.review img{
+color: #00ff88;
+
+
+}
+.chose-section{
+width: 1470px;
+height: 1100px;
+background-color: #230E3D;
+
+}
+.chose-section h1{
+text-align: center;
+margin-top: 0px;
+color: white;
+font-size: 3rem;
+font-weight: 500;
+}
+ chose-section{
+display: grid;
+grid-template-columns: 150px 1fr 150px;
+grid-template-rows: auto;
+grid-template-areas: 
+     "headphone mobile mobile"
+      "headphone  location location"
+     "exclusive exclusive recource";
+gap: 10px;
+
+
+ }
+
+.headphone{
+width: 380px;
+height: 522px;
+/*border: 1px solid white;*/
+margin-top: 100px;
+margin-left: 100px;
+box-shadow: 0,0,0,20px;
+box-shadow: 3px 3px 3px gray;
+border-radius: 20px;
+color: white;
+}
+.headphone h3{
+font-size: 24px;
+width: 500;
+
+}
+.headphone img{
+margin-top: 130px;
+
+
+}
+.mobile{
+ /*border: 1px solid  ;*/
+width: 790px;
+height: 267px;
+margin-left:00px;
+margin-top: 80px;
+justify-content: center;
+text-align: start;
+box-shadow: 3px 3px 3px gray;
+border-radius: 20px;
+color: white;
+}
+.mobile h3{
+    font-size: 24px;
+width: 500;
+}
+
+.mobile img {
+margin-top: 100px;
+
+
+}
+.location{
+/* border: 1px solid  ;*/
+width: 790px;
+height: 267px;
+justify-items: center;
+align-items: center;
+margin-left: 00px;
+box-shadow: 3px 3px 3px gray;
+border-radius: 20px;
+margin-top: 10px;
+color: white;
+}
+.location h3{
+
+    font-size: 24px;
+width: 500;
+}
+.location img{
+margin-top: 100px;
+
+
+}
+.he-mo-lo{
+display: flex;
+gap: 20px;
+}
+.mo-lo{
+gap: 10px;
+
+}
+.exclusive{
+/*border: 1px solid gold;*/
+width: 790px;
+height: 273px;
+box-shadow: 3px 3px 3px gray;
+border-radius: 20px;
+margin-top: 10px;
+color: white;
+}
+.exclusive h3{
+    font-size: 24px;
+width: 500;
+}
+.exclusive img{
+    margin-top: 100px;
+}
+
+.resource{
+/*border: 1px solid darkgreen;*/
+width: 380px;
+height: 273px;
+box-shadow: 3px 3px 3px gray;
+border-radius: 20px;
+margin-top: 10px;
+color: white;
+
+}
+.resource h3{
+    font-size: 24px;
+width: 500;
+}
+.resource img{
+
+    margin-top: 100px;
+}
+.ex-ro{
+display: flex;
+gap: 20px;
+}
+.ex{
+margin-left: 100px;
+
 }
