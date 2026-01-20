@@ -348,6 +348,50 @@ color: gold;
 text-align: center;
 font-size: 3rem;
 font-weight: 500;
-margin-top: 70px;
+margin-top: 100px;
 
+}
+.alex-host{
+display: flex;
+width: 1000px;
+height: 280px;
+
+max-width: 1440px;
+margin: auto;
+border-radius: 20px;
+box-shadow: 2px 2px 2px gray;
+}
+.social img{
+gap: 10px;
+border-radius: 50%;
+}
+.alex-host h1{
+margin-top: 50px;
+font-size: 3rem;
+font-weight: 500;
+color: white;
+margin: 0,0;
+}
+.alex-host p{
+
+    color: white;
+    font-size: 1rem;
+}
+.alex-meet img{
+gap: 10px;
+border-radius: 50%;
+}
+.footer{
+    width: 1470px;
+    height: 412px;
+background-image: url(./assets/footer-bg.png);
+text-align: center;
+margin-top: 0px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+.footer h1{
+    marg
 }
