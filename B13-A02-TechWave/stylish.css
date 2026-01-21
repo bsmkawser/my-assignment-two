@@ -49,8 +49,23 @@ margin-top: 70px;
 
 
 }
+.top{
+margin-right: 300px;
+
+
+}
 .hero-img{
  margin-left: 625px;
+}
+.new{
+height:38px;
+width: 75px;
+background-color: #00ff88;
+font-size: 2rem;
+font-weight: 400;
+border-radius: 30%;
+
+
 }
 .top{
 margin-right: 65px;
@@ -387,11 +402,36 @@ border-radius: 50%;
 background-image: url(./assets/footer-bg.png);
 text-align: center;
 margin-top: 0px;
+justify-content: center;
+color: white;
+justify-items: center;
+max-width: 1440px;
+margin: auto;
+t
+
 }
 .images{
     display: flex;
     justify-content: center;
 }
 .footer h1{
-    marg
+    margin: 0px ;
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+@media screan and (max-witch:576px){
+    .navber{
+display:
+
+
+    }
+   .review-flex{
+grid-template-columns: repeat(2 ,1fr);
+
+
+   }
+
+
+
 }
